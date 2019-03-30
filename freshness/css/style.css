@@ -1,0 +1,258 @@
+body{
+    font-family: 'Merriweather', serif;
+}
+p{
+    font-weight: 400;
+}
+h1{
+    font-weight: 700;  
+}
+.headerarea{
+    border-top: 5px solid black;
+    border-bottom: 1px solid black;
+    padding:20px ;
+   
+}
+.socialarea{
+    width: 100%;
+    clear:both;
+}
+.socialarea ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.socialarea ul li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.socialarea ul li a{
+    background-color: black;
+   color: white;
+   border-radius: 10px;
+   width:35px;
+   height: 35px;
+   display:block;
+   text-align: center;
+   padding:5px;
+   border-radius: 50%;
+
+}
+.socialarea ul li a:hover{
+    background-color: orange;
+}
+.logo{
+    margin-top: 24px;
+}
+.searcharea{
+    text-align: right;
+    width:100%;
+    clear: both;
+}
+.searcharea input[type="text"]{
+    background-color:#333333;
+    color: white;
+   
+     width: 214px;
+    height: 29px; 
+    text-align: center;
+    padding: 15px;
+    border-radius:5px;
+}
+.searcharea input[type="submit"]{
+    background-color: #3bafbe;
+    color:white;
+    text-transform: uppercase;
+    text-align: center;
+   cursor: pointer;
+   /* padding: 5px;
+     */
+    
+    
+}
+
+.searcharea input[type="submit"]:hover{
+background-color: orange;
+}
+.menubar{
+    text-align: right;
+}
+.menubar ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.menubar ul li{
+    display: inline-block;
+}
+.menubar ul li a{
+display: block;color:#999999;font-size:14px;text-transform:uppercase;
+text-decoration: none;
+padding: 30px 15px;
+
+}
+.bannerarea{
+    width: 100%;
+    border-bottom:2px solid silver;
+    
+   
+}
+.menubar ul li a:hover{
+    color: aqua;
+}
+.bannerimage{
+    margin-top:47px;
+    margin-bottom: 40px;
+}
+.bannerdescription{
+    margin-top:115px;
+}
+.imagesection{
+    width: 100%;
+    border-bottom:2px solid silver;
+    
+    
+
+}
+.clearfix{
+    clear: both;
+}
+.rowone{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.testdiv h4{
+    font-style: italic;
+    font-size: 20px;
+    /* padding: 40px; */
+    padding-top: 40px;
+    padding-left: 80px;
+}
+.wrapper img{
+    float: left;
+}
+.wrapper h4{
+    text-align: center;
+    font-size:14px;
+}
+.wrapper p{
+    text-align:center;
+    font-size:14px;
+}
+.testindv{
+    margin-top:45px;
+}
+.footer{
+    background-color:#252525;
+}
+.partone h4{
+    color:white;
+    font-size: 20px;
+    text-align:center;
+    padding-top: 20px;
+}
+.partone ul li{
+    list-style-type:none;
+}
+.partone ul li a{
+    color:#999999;
+    font-size: 14px;
+    text-decoration: none;
+}
+.aqua{
+    color: aqua;
+}
+.footer{
+    background-color: #252525;
+    
+    padding:30px;
+}
+.footerpartone h6{
+    color:white;
+}
+.footerpartone p{
+    color:white;
+    font-size: 14px;
+}
+.footerparttwo h6{
+    color:white;
+    padding-left: 40px; 
+}
+.footerparttwo ul li{
+    list-style-type: none;
+    border-bottom: 1px solid #2c2c2c;
+    padding:7px;
+}
+.footerparttwo ul li a{
+    text-decoration: none;
+    color:#3bafbe;
+    font-size: 14px;
+    
+}
+.footerpartthree h6{
+    color: white;
+}
+.footerpartthree p{
+    color:#999999;
+    font-size:12px;
+}
+.footerpartthree a{
+    color: #3bafbe;
+    float: right;
+    font-size: 12px;
+}
+.footerpartfour h6{
+    color:white; 
+}
+.footerpartfour form button{
+ background: #3bafbe! important;
+ border: none;
+}
+.copyright{
+    background:#1a1a1a;
+    padding: 20px; 
+}
+.copyrightpartone p{
+    color:#999999;
+    font-size: 14px;
+}
+.copyrightparttwo p{
+    color:#999999;
+    font-size: 12px;
+}
+@media(max-width:768px) {
+    .menubar{
+        width: 100%;
+        text-align: center;
+       
+        
+    }
+    .bannerdescription h1{
+        margin-top: -120px;
+    }
+    .rowone img{
+        margin-top: -45px;
+    }
+    .testdiv h4{
+        width: 100%;
+        /* text-align: center; */
+        text-align:left;
+        margin-left: -70px;
+        font-size:20px;
+    }
+    .wrapper img{
+        /* text-align: center; */
+        /* width: 100%; */
+    }
+    .wrapper p{
+        width: 100%;
+        padding-left:80px;
+        
+    }
+    .footerparttwo h6{
+       margin-left:-38px;
+    }
+    .footerparttwo ul li a{
+        margin-left:-40px;
+    }
+}
