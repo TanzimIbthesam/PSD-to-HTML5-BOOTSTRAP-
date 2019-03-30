@@ -1,0 +1,200 @@
+.headerpart{
+    border-bottom: 1px solid silver;
+    margin-top: 47px;
+    
+}
+.headerpart img{
+    
+    margin-bottom:45px;
+}
+.headerpart form input[type="text"]{
+    width: 214px;
+    height:29px;
+}
+.headerpart form input[type="submit"]{
+    text-transform: uppercase;
+    background-color: #d54346;
+    color:white;
+}
+.headerparttwo ul{
+    margin:0;
+    padding: 0;
+    
+    
+}
+.headerparttwo ul li{
+    float:left;
+    list-style-type: none;
+    border-right:1px solid silver;
+    text-align: center;
+}
+.headerpart ul  li:last-child{
+    border: none;
+}
+.headerparttwo ul li a{
+    text-decoration:none;
+    color: black;
+    padding: 15px;
+    padding-top: 10px;
+    font-size:16px;
+}
+.menubar{
+    padding: 20px;
+}
+.socialicons{
+    padding: 30px;
+    text-align: right;
+   
+}
+.socialicons i{
+    width:32px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    border-radius: 15px;
+
+}
+.socialicons i:hover{
+    background: orange;
+}
+.titlesection{
+    padding-top: 50px;
+}
+.titlesection h1{
+    text-align:center;
+    font-size: 28px;
+}
+.titlesection p{
+    color:#b4b4b4;
+    text-align: left;
+    font-size: 21px;
+}
+.profileone{
+    text-align:center;
+}
+.projectsection{
+    padding: 20px;
+  
+}
+.projectheading {
+    text-align: right;
+    
+}
+.projectheading h1{
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    color: #d44346;
+    
+
+}
+.projectone{
+    text-align: center;
+}
+.projectone button{
+    text-align:mx-auto;
+}
+.footersection{
+    background-color: #d54346;
+    padding:40px;
+    border-bottom: 1px solid #871f21;
+}
+.footerpartone h4{
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.footerpartone p{
+    color: #fff;
+    font-size: 14px;
+}
+.footerpartone a{
+    color:black;
+}
+.footerparttwo h4{
+    text-align: left;
+    padding-left:40px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #fff;
+}
+.footerparttwo ul li{
+    
+    border-bottom:0.5px solid #d85255;
+    list-style-type: none;
+}
+.footerparttwo ul li a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+}
+.footerpartthree h6{
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+}
+.footerpartthree p{
+    color: white;
+    font-size: 14px;
+    padding-top: 5px;
+}
+.footerpartthree form button{
+    background: #871f21 !important;
+    border: none;
+    text-transform: uppercase;
+    font-weight:600;
+}
+.footerpartthree h5{
+    padding-top: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.copyrightpart{
+    padding: 20px;
+    background: #d54346;
+
+}
+.copyrightpartone{
+    color: white;
+    font-size: 14px;
+}
+.template p{
+    color: #fff;
+}
+@media(max-width:768px){
+    .headerpart{
+        width: 100%;
+        
+    }
+    .headerpart img{
+        width: 100%;
+    }
+    .headerpart form input[type="submit"]{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .headerpartwo .menubar,
+    .menubar ul li,
+    .menubar ul li a{
+        width: 100%;
+        /* text-align: center; */
+        border-right:none;
+        
+    }
+    .footerparttwo h4{
+        margin-left:-38px;
+    }
+    .footerparttwo ul li a{
+        margin-left:-38px;
+    }
+    .projectheading h4{
+        text-align: center;
+        width: 100%;
+    }
+
+
+
+}
